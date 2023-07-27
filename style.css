@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(background.jpg);
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    padding-top: 25px;
+}
+
+.container{
+    width: 1000px;
+    height: 700px;
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 15px;
+}
+
+.container-2{
+    width: 800px;
+    height: 650px;
+    font-family: 'Poppins', sans-serif;
+    margin: auto;
+}
+
+
+/* INTESTAZIONE */
+header{
+    text-align: center;
+    color: rgb(11, 220, 11);
+    padding-top: 55px;
+}
+
+#logo{
+    width: 220px;
+    height: 100px;
+}
+
+#textlogo{
+    margin: auto;
+    font-size: 25px;
+}
+
+
+/* NAVIGAZIONE */
+nav{
+    text-align: center;
+    background-color: rgb(11, 220, 11);
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+
+/* CONTENUTO */
+.text{
+    color: white;
+    padding-top: 15px;
+    font-size: 20px;
+
+}
+
+.text-2{
+    color: white;
+    font-size: 15px;
+}
+
+.row-read{
+    background-color: rgb(226, 170, 64);
+    width: 250px;
+    height: 25px;
+    border-radius: 5px;
+}
+
+.row-read-2{
+    background-color: rgb(30, 185, 30);
+    width: 500px;
+    height: 25px;
+    border-radius: 5px;
+}
+
+.row-read-3{
+    background-color: rgb(200, 31, 31);
+    width: 130px;
+    height: 25px;
+    border-radius: 5px;
+}
+
